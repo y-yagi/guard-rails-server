@@ -1,0 +1,3 @@
+guard :rails_server do
+  watch(%r{^config/initializers/(.+)\.rb$})
+end
